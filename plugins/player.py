@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐍𝐆 𝐓𝐎 𝐕𝐄𝐍𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑 ...**")
+    lel = await message.reply("**🔎 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐍𝐆 𝐓𝐎 𝐍𝐎𝐁𝐈𝐓𝐀 𝐒𝐇𝐔𝐙𝐔𝐊𝐀 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -135,18 +135,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗧𝗢 𝗩𝗘𝗡𝗢𝗠 𝗦𝗘𝗥𝗩𝗘𝗥...**")
+                        message.chat.id, "** 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗧𝗢 𝐍𝐎𝐁𝐈𝐓𝐀 𝐒𝐇𝐔𝐙𝐔𝐊𝐀 𝗦𝗘𝗥𝗩𝗘𝗥...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 Ƥɭɘɑsɘ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ Ʌssɩsʈɑŋʈ OR CONTACT @GIRLS_BOYS_CHATTING10🥀** ")
+                        f"**🎸 Ƥɭɘɑsɘ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ Ʌssɩsʈɑŋʈ OR CONTACT @V3NOM_SUPPORT🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ  Øɤ  Ƈøŋʈɑƈʈ 𝙷𝙴𝚁𝙴: @GIRLS_BOYS_CHATTING10 🥀 ...*")
+            f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ  Øɤ  Ƈøŋʈɑƈʈ 𝙷𝙴𝚁𝙴: @V3NOM_SUPPORT 🥀 ...*")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/55d8a6f1a9b87eaba142f.png"
+        thumb_name = "https://telegra.ph/file/c1db6672ba6908334a80e.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/GIRLS_BOYS_CHATTING10")
+                            url=f"https://t.me/V3NOM_SUPPORT")
 
                 ]
             ]
@@ -213,7 +213,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝗛𝗘𝗛𝗘 𝗦𝗢𝗝𝗔 𝗩𝗥𝗢 ♡ᗯTᖴ♡ᴹᴶᴬᴷ ᴷᴿᴿᴬ ᴴᵁ ",
-                            url=f"https://t.me/GIRLS_BOYS_CHATTING10")
+                            url=f"https://t.me/V3NOM_SUPPORT")
 
                 ]
             ]
@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/55d8a6f1a9b87eaba142f.png"
+            thumb_name = "https://telegra.ph/file/c1db6672ba6908334a80e.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 𝙻𝙼𝙰𝙾 𝙹𝙾𝙼𝙸𝙽 𝙰𝙼𝙳 𝚂𝚄𝙼𝙿𝙾𝚁𝚃 💞",
-                            url=f"https://t.me/GIRLS_BOYS_CHATTING10")
+                            url=f"https://t.me/V3NOM_SUPPORT")
 
                 ]
             ]
@@ -248,7 +248,8 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**𝐁𝐀𝐁𝐘 𝐆𝐀𝐍𝐄 𝐊𝐀 𝐍𝐀𝐌𝐄 𝐁𝐇𝐈 𝐋𝐈𝐊𝐇𝐍𝐀 𝐇𝐎𝐓𝐀 𝐇 𝐏𝐋𝐀𝐘 𝐊𝐑𝐍𝐄 𝐊𝐄 𝐋𝐈𝐘𝐄ᰔ...**"
             )
-        await lel.edit("**🔄 𝙉𝙀𝙏 𝙉𝙄 𝘾𝙃𝘼𝙇𝙍𝘼 𝙃𝙊𝙏𝙎𝙋𝙊𝙏 𝘾𝙃𝘼𝙇𝘼𝘿𝙀 𝘽𝙃𝘼𝙄 ...**")
+        await lel.edit("**🔄 𝐋𝐄𝐓 𝐌𝐄 𝐏𝐋𝐀𝐘 𝐓𝐇𝐄 𝐒𝐎𝐍𝐆 𝐁𝐀𝐁𝐄
+ ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -283,7 +284,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓 𝐏𝐋𝐎𝐗𖦊𖦊",
-                            url=f"https://t.me/girls_boys_chatting10")
+                            url=f"https://t.me/V3NOM_SUPPORT")
 
                 ]
             ]
@@ -322,7 +323,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝙃𝙀𝙃𝙀 𝙂𝘼𝙉𝘼 𝘾𝙃𝘼𝙇𝘼 𝘿𝙄𝙔𝘼 ...𝙆𝙃𝙐𝙎**".format(),
+            caption="**💥𝐍𝐎𝐁𝐈𝐓𝐀 𝐏𝐋𝐀𝐘𝐄𝐃 𝐓𝐇𝐄 𝐒𝐎𝐍𝐆 𝐍𝐎𝐖 ! 𝐇𝐀𝐏𝐏𝐘 !**".format(),
            )
 
     os.remove("final.png")
@@ -336,7 +337,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/55d8a6f1a9b87eaba142f.png", 
-                             caption="**💥 𝙆𝙍𝘿𝙄𝙔𝘼 𝙋𝘼𝙐𝙎𝙀...**"
+                             caption="**💥 ℕ𝕆𝕎 ℝ𝔼𝕊𝕌𝕄𝔼𝔻...**"
     )
 
 
@@ -347,7 +348,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/55d8a6f1a9b87eaba142f.png", 
-                             caption="**💥 𝑽𝑬𝑵𝑶𝑴 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 𝑷𝑳𝑨𝒀𝑰𝑵𝑮...**"
+                             caption="**💥 𝐍𝐎𝐁𝐈𝐓𝐀 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐏𝐋𝐀𝐘𝐈𝐍𝐆...**"
     )
 
 
@@ -380,8 +381,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/55d8a6f1a9b87eaba142f.png", 
-                             caption=f'**𝗟𝗢𝗟 𝐒𝐊𝐈𝐏𝐄𝐃...**'
+                             photo="https://telegra.ph/file/c1db6672ba6908334a80e.png", 
+                             caption=f'**𝗟𝗢𝗟 𝐒𝐊𝐈𝐏P𝐄𝐃...**'
    ) 
 
 
@@ -396,8 +397,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/55d8a6f1a9b87eaba142f.png", 
-                             caption="**💥 VENOM🔈 Mʋsɩƈ\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             photo="https://telegra.ph/file/c1db6672ba6908334a80e.png", 
+                             caption="**💥NOBITA🔈 Mʋsɩƈ\n❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
 
@@ -415,5 +416,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
-                              caption="**💥 𝗩𝗘𝗡𝗢𝗠 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              caption="**💥NOBITA Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
